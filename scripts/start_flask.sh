@@ -1,1 +1,4 @@
-python /home/ec2-user/python-app/web.py > /dev/null 2>&1 &
+#!/bin/bash
+sudo chmod -R 777 /home/ec2-user/python-app
+cd /home/ec2-user/python-app
+python web.py 
